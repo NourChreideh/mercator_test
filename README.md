@@ -12,7 +12,7 @@ Android Studio or Xcode: To run the app on Android or iOS
 ===================== Installation ==================================
 
 Clone the repository:
-git clone https://github.com/your-username/news-app.git
+git clone https://github.com/NourChreideh/mercator_test.git
 cd news-app
 
 Install dependencies:
