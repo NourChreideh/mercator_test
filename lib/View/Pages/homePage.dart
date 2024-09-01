@@ -42,7 +42,7 @@ class _HomePageState extends State<HomePage> {
     if (!isLoadingMore) {
       setState(() {
         isLoadingMore = true;
-        currentStart = 0;
+        currentStart = currentEnd;
         currentEnd += 10;
       });
 
