@@ -229,7 +229,7 @@ class _HomePageState extends State<HomePage> {
                       } else {
                         final filteredArticles = snapshot.data!
                             .where(
-                                (article) => article.section == "خــارجــيــات")
+                                (article) => article.section != "مــحــلــيــات")
                             .toList();
 
                         return Padding(
